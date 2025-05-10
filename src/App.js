@@ -29,7 +29,7 @@ const App = () => {
   };
 
   const handleGetStats = async () => {
-    const response = await fetch('https://api-deploy-c527.onrender.com/get-stats', {
+    const response = await fetch('https://api-deploy-c527.onrender.com/get-data', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
